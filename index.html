@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HR AI Automation Suite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-primary': '#2970FF',
+            'brand-primary-light': '#EAF2FF',
+            'brand-secondary': '#F7F8FA',
+            'brand-text': '#1E2A3A',
+            'brand-subtle-text': '#6C788A',
+            'brand-border': '#EAEBEE',
+            'criterion-purple': '#6D28D9',
+            'criterion-orange': '#EA580C',
+            'criterion-blue': '#2563EB',
+            'criterion-pink': '#DB2777',
+            'match-green-bg': '#D1FAE5',
+            'match-green-text': '#065F46',
+            'unclear-gray-bg': '#F3F4F6',
+            'unclear-gray-text': '#4B5563',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+           boxShadow: {
+            'main': '0px 4px 16px rgba(0, 0, 0, 0.05)',
+          }
+        },
+      },
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-secondary">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "HR AI Automation Suite",
+  "description": "An interactive demo showcasing AI-powered automation for common HR tasks, such as generating payroll reports from clock-in data and managing employee birthday greetings.",
+  "requestFramePermissions": []
+}
