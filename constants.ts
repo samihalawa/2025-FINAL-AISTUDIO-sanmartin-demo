@@ -103,10 +103,10 @@ Recursos Humanos
 `;
 
 export const CRITERIA_DEFINITIONS: CriterionMatch[] = [
-    { shortName: "Currently Or P...", fullName: "Currently or previously held the position of 'jefe de producción' (production manager) in a construction or...", color: 'criterion-purple' },
-    { shortName: "At Least 3 Yea...", fullName: "At least 3 years of professional experience in top-tier or equivalent construction/building companies", color: 'criterion-orange' },
-    { shortName: "Salary < 50k...", fullName: "Salary history does not exceed €50,000/year (based on available or inferred compensation data)", color: 'criterion-blue' },
-    { shortName: "Based in Madrid", fullName: "Based in Madrid", color: 'criterion-pink' },
+    { shortName: "Actualmente o...", fullName: "Ocupa o ha ocupado el puesto de 'jefe de producción' en una empresa constructora o similar", color: 'criterion-purple' },
+    { shortName: "Mínimo 3 años...", fullName: "Al menos 3 años de experiencia profesional en empresas constructoras de primer nivel o equivalentes", color: 'criterion-orange' },
+    { shortName: "Salario < 50k...", fullName: "El historial salarial no supera los 50.000 €/año (basado en datos de compensación disponibles o inferidos)", color: 'criterion-blue' },
+    { shortName: "Res. en Madrid", fullName: "Residencia en Madrid", color: 'criterion-pink' },
 ];
 
 

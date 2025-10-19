@@ -1,5 +1,5 @@
 {
-  "name": "HR AI Automation Suite",
-  "description": "An interactive demo showcasing AI-powered automation for common HR tasks, such as generating payroll reports from clock-in data and managing employee birthday greetings.",
+  "name": "Suite de Automatización de RRHH con IA",
+  "description": "Una demostración interactiva que muestra la automatización impulsada por IA para tareas comunes de RRHH, como la generación de informes de nómina a partir de datos de fichajes y la gestión de felicitaciones de cumpleaños de empleados.",
   "requestFramePermissions": []
 }

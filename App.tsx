@@ -17,32 +17,32 @@ const App: React.FC = () => {
       case 'birthdays':
         return { 
           component: <BirthdayAutomation />,
-          title: "Automated Birthday Greetings",
-          description: "Automate birthday wishes for your team."
+          title: "Felicitaciones de Cumpleaños Automatizadas",
+          description: "Automatiza las felicitaciones de cumpleaños para tu equipo."
         };
       case 'reports':
         return {
           component: <HoursReportGenerator />,
-          title: "Work Hours Report Generator",
-          description: "Transform clock-in data into payroll-ready reports with AI."
+          title: "Generador de Informes de Horas de Trabajo",
+          description: "Transforma los datos de fichajes en informes listos para la nómina con IA."
         };
       case 'personnel':
         return {
           component: <PersonnelSearch />,
-          title: "AI-Powered Personnel Search",
-          description: "Screen and analyze candidate profiles against job criteria."
+          title: "Búsqueda de Personal con IA",
+          description: "Evalúa y analiza perfiles de candidatos según los criterios del puesto."
         };
        case 'portal':
         return {
           component: <EmployeePortal />,
-          title: "Employee Portal",
-          description: "Manage your vacation, absences, and documents in one place."
+          title: "Portal del Empleado",
+          description: "Gestiona tus vacaciones, ausencias y documentos en un solo lugar."
         };
       default:
         return {
           component: <EmployeePortal />,
-          title: "Employee Portal",
-          description: "Manage your vacation, absences, and documents in one place."
+          title: "Portal del Empleado",
+          description: "Gestiona tus vacaciones, ausencias y documentos en un solo lugar."
         };
     }
   };
@@ -54,25 +54,25 @@ const App: React.FC = () => {
       <Sidebar>
         <SidebarItem
           icon={<LayoutDashboard />}
-          text="Employee Portal"
+          text="Portal del Empleado"
           active={activeFeature === 'portal'}
           onClick={() => setActiveFeature('portal')}
         />
         <SidebarItem
           icon={<Users />}
-          text="Personnel Search"
+          text="Búsqueda de Personal"
           active={activeFeature === 'personnel'}
           onClick={() => setActiveFeature('personnel')}
         />
         <SidebarItem
           icon={<Clock />}
-          text="Work Hours Report"
+          text="Informe de Horas"
           active={activeFeature === 'reports'}
           onClick={() => setActiveFeature('reports')}
         />
         <SidebarItem
           icon={<Gift />}
-          text="Birthday Automation"
+          text="Automatización de Cumpleaños"
           active={activeFeature === 'birthdays'}
           onClick={() => setActiveFeature('birthdays')}
         />
